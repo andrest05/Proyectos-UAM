@@ -1,0 +1,45 @@
+console.log("Entramos");
+
+var items = document.getElementsByClassName("item");
+var cantidad = items.length;
+console.log(cantidad);
+console.log("Cantidad de listas " + cantidad);
+var div = document.createElement("div");
+div;
+
+div.innerText="Aprendiendo Javascript";
+var divUno = document.getElementById("uno");
+divUno.appendChild(div);
+
+var lista = document.getElementById("lista");
+var hijo = document.createElement("li");
+hijo.innerText = "li nuevo";
+lista.appendChild(hijo);
+
+var tres = document.getElementById("tres").style.color = "red";
+var lista = document.getElementById("lista").style.color = "green";
+
+
+var div1 = document.createElement("div");
+div1;
+
+div1.innerText="El fútbol o futbol es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno, mientras los árbitros se ocupan de que las normas se cumplan correctamente. Es, ampliamente, considerado el deporte más popular del mundo, pues lo practican unas 270 millones de personas.​";
+var divdos = document.getElementById("uno");
+divdos.appendChild(div1);
+var cuatro = document.getElementById("uno").style.color = "blue";
+
+
+var lista2 = document.getElementById("lista5");
+var hijo2 = document.createElement("li");
+hijo2.innerText = "li nuevo";
+lista2.appendChild(hijo2);
+
+var lista3 = document.getElementById("lista2");
+var hijo3 = document.createElement("li");
+hijo2.innerText = "li nuevo";
+lista.appendChild(hijo2);
+
+var lista4 = document.getElementById("lista2");
+var hijo4 = document.createElement("li");
+hijo2.innerText = "li nuevo";
+lista.appendChild(hijo2);

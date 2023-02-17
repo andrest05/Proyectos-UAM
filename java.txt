@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="uno">
+        <div id="dos">
+            <p id="tres">
+                Habia una vez unos hermanos que eran  muy atrevidos a la accion, estos se atrevieron a ser cosas muy 
+                arriesgadas y tomaron la desicion de hacer cosas que podrian acabar con su vida, y llego el dia se 
+                lanzaron de paracaidas y lastimosamente no salio como espereaban y alli acabo su vida.
+            </p>
+            
+            <ul id="lista">
+                <li id="primero" class="item">item 1</li>
+                <li class="item">item 2</li>
+                <li class="item">item 3</li>
+            </ul>
+
+            <ul id="lista5">
+
+            </ul>
+
+        </div>
+
+    </div>
+    <script src="js/dom.js"></script>
+  </body>
+</html>
